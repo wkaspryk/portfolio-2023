@@ -1,0 +1,27 @@
+{
+  "name": "portfo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wkaspryk/portfo.git"
+  },
+  "author": "wkaspryk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wkaspryk/portfo/issues"
+  },
+  "homepage": "https://github.com/wkaspryk/portfo#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.7",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  },
+  "dependencies": {
+    "natives": "^1.1.6"
+  }
+}
