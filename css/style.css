@@ -809,9 +809,9 @@ hr {
   transform: scale(1.2);
   filter: saturate(100%); }
 
-@media screen and (max-width: 1235px) {
+@media screen and (max-width: 1100px) {
   .work-links ul li {
-    flex-grow: 1; } }
+    width: 100%; } }
 
 .work-links ul li.work-animation .work-bg {
   background-image: url("../img/nav-animation.png");
