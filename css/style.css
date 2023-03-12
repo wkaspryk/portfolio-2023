@@ -90,13 +90,17 @@ header {
   background-attachment: fixed;
   background-position: bottom;
   padding-top: 15vh; }
-
-@media (max-device-width: 800px) {
-  header {
-    height: 28vh;
-    background-position: top;
-    background-size: 100% 650px;
-    padding-top: 150px; } }
+  @media (max-device-width: 820px) {
+    header {
+      max-height: 28vh;
+      background-position: top;
+      background-size: 100% 650px;
+      padding: 100px 0 100px;
+      display: flex;
+      justify-content: center; } }
+  @media (max-device-width: 767px) {
+    header {
+      max-height: 23vh; } }
 
 #header {
   transition: opacity 1s ease-out, height 1s ease-out; }
@@ -294,7 +298,14 @@ hr {
 
 @media (max-device-width: 800px) {
   .work-container {
-    padding-bottom: 50px; } }
+    padding-bottom: 50px; }
+    .work-container .work-text {
+      align-items: center; }
+    .work-container .work-imgs {
+      width: 100%; }
+    .work-container .work-retailers {
+      width: 100%;
+      padding-bottom: 50px; } }
 
 @media (max-device-width: 375px) {
   .work p {

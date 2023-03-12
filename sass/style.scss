@@ -83,15 +83,19 @@ background-size: cover;
 background-attachment: fixed;
 background-position: bottom;
 padding-top: 15vh;
-}
 
-@media (max-device-width: 800px) {
-header {
-  height: 28vh;
-  background-position: top;
-  background-size: 100% 650px;
-  padding-top: 150px;
-}
+  @media (max-device-width: 820px) {
+    max-height: 28vh;
+    background-position: top;
+    background-size: 100% 650px;
+    padding: 100px 0 100px;
+    display: flex;
+    justify-content: center;
+  }
+
+  @media (max-device-width: 767px) {
+      max-height: 23vh;
+  }
 }
 
 #header {
@@ -305,6 +309,16 @@ cursor: pointer;
 @media (max-device-width: 800px) {
 .work-container {
   padding-bottom: 50px;
+  .work-text {
+    align-items: center;
+  }
+  .work-imgs {
+    width: 100%;
+  }
+  .work-retailers {
+    width: 100%;
+    padding-bottom: 50px;
+  }
 }
 }
 
